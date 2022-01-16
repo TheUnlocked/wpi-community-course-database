@@ -1,0 +1,25 @@
+.container {
+    max-width: var(--size-lg);
+    margin: auto;
+}
+
+.editSuggestion {
+    text-align: right;
+    color: var(--ion-color-medium)
+}
+
+.inlineBadge {
+    vertical-align: middle;
+}
+
+.availabilityBadge {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.container [quill-editor] {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid var(--ion-color-light);
+    border-radius: 4px;
+}

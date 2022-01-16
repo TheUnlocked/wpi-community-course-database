@@ -1,0 +1,28 @@
+/* .open {} */
+
+.waitlist {
+    color: var(--ion-color-medium) !important;
+    font-style: italic;
+}
+
+.filled {
+    color: var(--ion-color-medium) !important;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.courseList {
+    background-color: var(--ion-background);
+}
+
+.item {
+    max-width: var(--size-md) !important;
+    margin: auto;
+}
+
+.classBadgeHolder {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

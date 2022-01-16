@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container ion-col {
+    margin: 0 4px;
+}
+
+.noClassTimes {
+    font-size: large;
+    font-style: italic;
+}
+
+.timeTop {
+    height: 32px;
+    background-color: var(--ion-color-secondary);
+    border-radius: 4px 4px 0 0;
+}
+
+.timeMid {
+    height: 32px;
+    background-color: var(--ion-color-secondary);
+}
+
+.timeEnd {
+    height: 32px;
+    background-color: var(--ion-color-secondary);
+    border-radius: 0 0 4px 4px;
+}
+
+.hidden {
+    visibility: hidden;
+}
